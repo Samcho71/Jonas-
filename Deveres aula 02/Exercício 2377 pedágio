@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ int l,d,k,p,c;
+ 
+   scanf("%d%d",&l,&d);
+   scanf("%d%d",&k,&p);
+   
+   c = (l*k) + (l/d) * p ;
+   
+   
+   printf("%d\n",c);
+    return 0;
+}
