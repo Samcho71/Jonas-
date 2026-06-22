@@ -1,0 +1,25 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+ int ano,mes,dia;
+ 
+ scanf("%d",&dia );
+ 
+ ano = dia /365;
+ dia = dia - 365 * ano;
+ mes = dia/30;
+ dia = dia -mes*30; 
+
+
+ printf("%d",ano);
+ printf(" ano(s)\n");
+ printf("%d",mes);
+ printf(" mes(es)\n");
+ printf("%d",dia);
+ printf(" dia(s)\n");
+ 
+return 0;
+}
+ 
+   
