@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+long long l,n,a,valor,r,r2;
+
+scanf("%lld %lld",&l,&n);    
+    
+    valor =  l - n+1;
+    a = (valor*valor) + n-1;
+    
+    
+    printf("%.0lld\n",a);
+ 
+    return 0;
+}
