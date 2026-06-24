@@ -1,0 +1,22 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double f1,f2,pib,flu1,flu2,final;
+    
+    scanf("%lf %lf", &f1, &f2);
+    pib = 100.0;
+    
+    
+    
+    flu1 = pib *((f1/100.0)+ 1);
+    flu2 = flu1 * ((f2/100.0)+ 1);
+    
+    final = flu2 - 100.0;
+     
+    printf("%.6lf\n", final);
+    
+    
+ 
+    return 0;
+}
